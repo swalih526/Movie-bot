@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Movie𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/wudixh')
+                InlineKeyboardButton('🤖 Movie𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/+TPdNh9kaRKVkYmFl')
             ],
             [
-                InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', url=f"https://t.me/{temp.@S_W_A_L_H}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -54,7 +54,7 @@ async def start(client, message):
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
-            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+            caption=script.START_TXT.format(message.from_user.mention, temp.@S_W_A_L_H, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -68,7 +68,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🤖 Join Updates Channel", url=https://t.me/+TPdNh9kaRKVkYmFl
                 )
             ]
         ]
